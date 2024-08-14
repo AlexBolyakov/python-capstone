@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}All Doctors{% endblock %}
+
+{% block body %}
+<h1> All Doctors </h1>
+{% for doctor in doctors %}
+
+
+<li>
+    <a href="/doctors/{{ doctor.doctor_id }}">
+      {{ doctor.doctor_name }}
+    </a>
+  </li>
+{% endfor %}
+
+{% endblock %}

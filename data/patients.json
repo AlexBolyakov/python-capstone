@@ -1,0 +1,191 @@
+[
+  {
+    "patient_name": "Bobby Navas",
+    "patient_email": "bnavas@me.com",
+    "password": "navas",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "NKA",
+    "medications": "Tylenol, Aderall"
+  },
+  {
+    "patient_name": "Natalie Rurac",
+    "patient_email": "nrurac@me.com",
+    "password": "rurac",
+    "gender": "Female",
+    "insurance": "Aetna",
+    "allergies": "Shellfish",
+    "medications": "Prozac, Tylenol"
+  },
+  {
+    "patient_name": "Richard Gamer",
+    "patient_email": "rgamer@me.com",
+    "password": "gamer",
+    "gender": "Male",
+    "insurance": "BlueCross BlueShield",
+    "allergies": "gluten",
+    "medications": "Ibuprofen"
+  },
+  {
+    "patient_name": "Chris Moon",
+    "patient_email": "cmoon@me.com",
+    "password": "moon",
+    "gender": "Male",
+    "insurance": "Cigna",
+    "allergies": "NKA",
+    "medications": "None"
+  },
+  {
+    "patient_name": "Grace Tune",
+    "patient_email": "gtune@me.com",
+    "password": "tune",
+    "gender": "Female",
+    "insurance": "United Healthcare",
+    "allergies": "seasonal",
+    "medications": "Allegra"
+  },
+  {
+    "patient_name": "Gerald Knows",
+    "patient_email": "gknows@me.com",
+    "password": "knows",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "Lactose",
+    "medications": "None"
+  },
+  {
+    "patient_name": "Sean Gold",
+    "patient_email": "sgold@me.com",
+    "password": "gold",
+    "gender": "Male",
+    "insurance": "Oxford",
+    "allergies": "seasonal",
+    "medications": "Allegra, Ibuprofen"
+  },
+  {
+    "patient_name": "Sarah Richman",
+    "patient_email": "srich@me.com",
+    "password": "richman",
+    "gender": "Female",
+    "insurance": "Meridian",
+    "allergies": "Latex",
+    "medications": "Antihistamines"
+  },
+  {
+    "patient_name": "Serge Roche",
+    "patient_email": "sroche@me.com",
+    "password": "roche",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "NKA",
+    "medications": "None"
+  },
+  {
+    "patient_name": "John Dover",
+    "patient_email": "jdover@me.com",
+    "password": "dover",
+    "gender": "Male",
+    "insurance": "Oxford",
+    "allergies": "Wasp & Bee",
+    "medications": "Dramamin, Benadryl"
+  },
+  {
+    "patient_name": "Larry Pain",
+    "patient_email": "lpain@me.com",
+    "password": "pain",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "NKA",
+    "medications": "Ambien, Ibuprofen, Warfarine"
+  },
+  {
+    "patient_name": "Marc Goldberg",
+    "patient_email": "mgold@me.com",
+    "password": "goldberg",
+    "gender": "Male",
+    "insurance": "BlueCross BlueShield",
+    "allergies": "Eggs",
+    "medications": "Ibuprofen, Vicodin"
+  },
+  {
+    "patient_name": "Wayland Go",
+    "patient_email": "waygo@me.com",
+    "password": "waylandgo",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "Mold",
+    "medications": "Antihistamines, Corticosteroids"
+  },
+  {
+    "patient_name": "Trevor Muscle",
+    "patient_email": "tmuscle@me.com",
+    "password": "muscle",
+    "gender": "Male",
+    "insurance": "Medicaid",
+    "allergies": "NKA",
+    "medications": "Ambien, Ibuprofen, Testosterone"
+  },
+  {
+    "patient_name": "Michael Tunaro",
+    "patient_email": "mtunaro@me.com",
+    "password": "tunaro",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "Lactose",
+    "medications": "Lisinopril, Metoprolol, Losatran"
+  },
+  {
+    "patient_name": "Kevin March",
+    "patient_email": "kmarch@me.com",
+    "password": "march",
+    "gender": "Male",
+    "insurance": "Oxford",
+    "allergies": "NKA",
+    "medications": "Ambien, Ibuprofen, Warfarine"
+  },
+  {
+    "patient_name": "George Nickel",
+    "patient_email": "gnickel@me.com",
+    "password": "nickel",
+    "gender": "Male",
+    "insurance": "Medicaid",
+    "allergies": "Pollen",
+    "medications": "Dramamin, Benadryl"
+  },
+  {
+    "patient_name": "Dona Smart",
+    "patient_email": "dsmart@me.com",
+    "password": "smart",
+    "gender": "Female",
+    "insurance": "Aetna",
+    "allergies": "NKA",
+    "medications": "Ambien, Ibuprofen, Sominex"
+  },
+  {
+    "patient_name": "Miriam Luciano",
+    "patient_email": "mluciano@me.com",
+    "password": "luciano",
+    "gender": "Female",
+    "insurance": "Oxford",
+    "allergies": "Dust mites",
+    "medications": "Allegra, Astelin, Nasonex"
+  },
+  {
+    "patient_name": "Megan Clapton",
+    "patient_email": "mclapton@me.com",
+    "password": "clapton",
+    "gender": "Female",
+    "insurance": "Meridian",
+    "allergies": "NKA",
+    "medications": "Tylenol, Aderall, Relaxium"
+  },
+  {
+    "patient_name": "Logan Caluum",
+    "patient_email": "lcaluum@me.com",
+    "password": "caluum",
+    "gender": "Male",
+    "insurance": "Aetna",
+    "allergies": "NKA",
+    "medications": "Ibuprofen, Unisom, Tums, Imodium"
+  }
+]

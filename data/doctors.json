@@ -1,0 +1,148 @@
+[
+  {
+    "doctor_name": "Alfred Board",
+    "availability": "Available",
+    "specialty": "Internal Medicine",
+    "doctor_email": "aboard@test.com",
+    "address": "1300 York Avenue, New York, NY 10065"
+  },
+  { "doctor_name": "Alex Bird",
+    "availability": "Available",
+    "specialty": "Urologist",
+    "doctor_email": "abird@test.com",
+    "address": "565 Lexington Avenue, New York, NY 10022"
+  },
+  {
+    "doctor_name": "Edward Bill",
+    "availability": "Not available",
+    "specialty": "Ophthalmologist",
+    "doctor_email": "ebill@test.com",
+    "address": "1 Penn Plaza, New York, NY 10011"
+  },
+  {
+    "doctor_name": "Silvia Canarro",
+    "availability": "Available",
+    "specialty": "Cardiologist",
+    "doctor_email": "scanarro@test.com",
+    "address": "420 East 76th Street, New York, NY 12345"
+  },
+  {
+    "doctor_name": "Robert Tester",
+    "availability": "Available",
+    "specialty": "Dermatologist",
+    "doctor_email": "rtester@test.com",
+    "address": "100 East 77th Street, New York 10324"
+  },
+  {
+    "doctor_name": "James Tart",
+    "availability": "Not available",
+    "specialty": "Endocrinologist",
+    "doctor_email": "jtart@test.com",
+    "address": "525 East 68th Street, New York, NY 10021"
+  },
+  {
+    "doctor_name": "Joe Black",
+    "availability": "Available",
+    "specialty": "Gastroenterologist",
+    "doctor_email": "jblack@test.com",
+    "address": "5141 Broadway, New York, NY 10065"
+  },
+  {
+    "doctor_name": "Craig Letterman",
+    "availability": "Available",
+    "specialty": "Infectious Desease",
+    "doctor_email": "cletter@@test.com",
+    "address": "1300 York Avenue, New York, NY 10065"
+  },
+  {
+    "doctor_name": "Steven Smith",
+    "availability": "Available",
+    "specialty": "Internal Medicine",
+    "doctor_email": "ssmith@test.com",
+    "address": "100 William Street, New York, NY 10065"
+  },
+  {
+    "doctor_name": "Peter Below",
+    "availability": "Available",
+    "specialty": "Oncologist",
+    "doctor_email": "pbelow@test.com",
+    "address": "630 West 168th Street, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Benjamin Bree",
+    "availability": "Available",
+    "specialty": "Otolaryngologist",
+    "doctor_email": "bbree@test.com",
+    "address": "630 West 168th Street, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Brandon Foot",
+    "availability": "Available",
+    "specialty": "Podiatrist",
+    "doctor_email": "bfoot@test.com",
+    "address": "301 East 17th Street, New York, NY 12105"
+  },
+  {
+    "doctor_name": "Alan Trust",
+    "availability": "Available",
+    "specialty": "Pulmonologist",
+    "doctor_email": "atrust@test.com",
+    "address": "450 Second Avenue, New York, NY 12300"
+  },
+  {
+    "doctor_name": "Travis Minin",
+    "availability": "Available",
+    "specialty": "Neurologist",
+    "doctor_email": "tminin@test.com",
+    "address": "1230 York Avenue, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Lucas Levy",
+    "availability": "Available",
+    "specialty": "Nephrologist",
+    "doctor_email": "llevy@test.com",
+    "address": "630 West 168th Street, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Chris Wall",
+    "availability": "Available",
+    "specialty": "Internal Medicine",
+    "doctor_email": "cwall@test.com",
+    "address": "630 East 68th Street, New York, NY 10021"
+  },
+  {
+    "doctor_name": "Wilhem French",
+    "availability": "Available",
+    "specialty": "Urologist",
+    "doctor_email": "wfrench@test.com",
+    "address": "227 East 19th Street, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Dean Henderson",
+    "availability": "Available",
+    "specialty": "Rehabilitation physician",
+    "doctor_email": "dhenderson@test.com",
+    "address": "226 East 20th Street, New York, NY 12100"
+  },
+  {
+    "doctor_name": "Cristin Martinez",
+    "availability": "Available",
+    "specialty": "Medical Geneticist",
+    "doctor_email": "cmart@test.com",
+    "address": "126 Broad Street, New York, NY 13302"
+  },
+  {
+    "doctor_name": "Spencer Face",
+    "availability": "Available",
+    "specialty": "Plastic Surgeon",
+    "doctor_email": "sface@test.com",
+    "address": "111 West 68th Street, New York, NY 12140"
+  },
+  {
+    "doctor_name": "Simon Best",
+    "availability": "Available",
+    "specialty": "Colorectal surgeon",
+    "doctor_email": "sbest@test.com",
+    "address": "1234 First Avenue, New York, NY 10021"
+  }
+]

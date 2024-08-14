@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ doctor.doctor_name }} - Details{% endblock %}
+
+{% block body %}
+
+<h1>Doctor Information</h1>
+
+<h2>Name: {{ doctor.doctor_name }}</h2>
+<h2>Email: {{ doctor.doctor_email }}</h2>
+<h2>Availability: {{ doctor.availability }}</h2>
+<h2>Specialty: {{ doctor.specialty }}</h2>
+<h2>Address: {{ doctor.address }}</h2>
+{% endblock %}

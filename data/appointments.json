@@ -1,0 +1,182 @@
+[
+    {
+      "visit_date": "2024-08-30",
+      "visit_time": "4:30 PM",
+      "reason": "High blood pressure",
+      "notes": "Initial appointment, blood collection",
+      "location": "Telehealth",
+      "doctor_id": "3",
+      "patient_id": "1"
+    },
+    {
+      "visit_date": "2024-09-20",
+      "visit_time": "10:30 AM",
+      "reason": "Pain",
+      "notes": "Initial appointment, blood collection",
+      "location": "Telehealth",
+      "doctor_id": "17",
+      "patient_id": "2"
+    },
+    {
+        "visit_date": "2024-08-24",
+        "visit_time": "10:00 AM",
+        "reason": "Gastric pain",
+        "notes": "Initial appointment, blood collection, cultures",
+        "location": "Office",
+        "doctor_id": "6",
+        "patient_id": "3"
+    },
+    {
+        "visit_date": "2024-09-20",
+        "visit_time": "10:30 AM",
+        "reason": "Pain",
+        "notes": "Follow up appointment, blood collection",
+        "location": "Telehealth",
+        "doctor_id": "0",
+        "patient_id": "0"
+    },
+    {
+        "visit_date": "2024-10-01",
+        "visit_time": "8:30 AM",
+        "reason": "Skin irritation",
+        "notes": "Initial appointment, allergy test",
+        "location": "Office",
+        "doctor_id": "4",
+        "patient_id": "4"
+    },
+    {
+        "visit_date": "2024-09-01",
+        "visit_time": "10:00 AM",
+        "reason": "Ear infection",
+        "notes": "Initial appointment, Evaluation",
+        "location": "Office",
+        "doctor_id": "10",
+        "patient_id": "5"
+    },
+    {
+        "visit_date": "2024-09-03",
+        "visit_time": "3:30 PM",
+        "reason": "Calf sprain",
+        "notes": "Initial appointment, Evaluation",
+        "location": "Office",
+        "doctor_id": "11",
+        "patient_id": "6"
+    },
+    {
+        "visit_date": "2024-10-02",
+        "visit_time": "1:00 PM",
+        "reason": "Fever, chills and sweats, nausea, headache",
+        "notes": "Initial appointment, blood collection",
+        "location": "Office",
+        "doctor_id": "7",
+        "patient_id": "7"
+    },
+    {
+        "visit_date": "2024-09-22",
+        "visit_time": "2:00 PM",
+        "reason": "Swollen lymph nodes, nausea, headache",
+        "notes": "Initial appointment, blood collection, evaluation",
+        "location": "Office",
+        "doctor_id": "9",
+        "patient_id": "8"
+    },
+    {
+        "visit_date": "2024-09-02",
+        "visit_time": "3:00 PM",
+        "reason": "Chect pain, stuffy nose, headache",
+        "notes": "Initial appointment, blood collection, evaluation",
+        "location": "Office",
+        "doctor_id": "12",
+        "patient_id": "9"
+    },
+    {
+        "visit_date": "2024-08-21",
+        "visit_time": "9:00 AM",
+        "reason": "Migrane, concussion",
+        "notes": "Initial appointment, blood collection, evaluation",
+        "location": "Office",
+        "doctor_id": "13",
+        "patient_id": "10"
+    },
+    {
+        "visit_date": "2024-10-02",
+        "visit_time": "1:00 PM",
+        "reason": "Low testosterone, fatique",
+        "notes": "Initial appointment, blood collection, evaluation",
+        "location": "Office",
+        "doctor_id": "16",
+        "patient_id": "11"
+    },
+    {
+        "visit_date": "2024-08-29",
+        "visit_time": "10:00 AM",
+        "reason": "Fever, chills and sweats, nausea, headache",
+        "notes": "Initial appointment, blood collection, blood culture",
+        "location": "Office",
+        "doctor_id": "15",
+        "patient_id": "12"
+    },
+    {
+        "visit_date": "2024-08-27",
+        "visit_time": "9:30 AM",
+        "reason": "muscle sprain, limited mobility, pain",
+        "notes": "Initial appointment, evaluation",
+        "location": "Office",
+        "doctor_id": "17",
+        "patient_id": "13"
+    },
+    {
+        "visit_date": "2024-09-04",
+        "visit_time": "1:00 PM",
+        "reason": "Genetic counseling",
+        "notes": "Initial appointment, genetic evaluation test",
+        "location": "Office",
+        "doctor_id": "18",
+        "patient_id": "14"
+    },
+    {
+        "visit_date": "2024-10-02",
+        "visit_time": "2:00 PM",
+        "reason": "Scar evaluation and reduction",
+        "notes": "Initial appointment, blood collection, evaluation",
+        "location": "Office",
+        "doctor_id": "19",
+        "patient_id": "15"
+    },
+    {
+        "visit_date": "2024-10-02",
+        "visit_time": "1:00 PM",
+        "reason": "Ischemia, structural defects",
+        "notes": "Initial appointment, evaluation",
+        "location": "Office",
+        "doctor_id": "20",
+        "patient_id": "16"
+    },
+    {
+        "visit_date": "2024-09-04",
+        "visit_time": "1:00 PM",
+        "reason": "Dry eye, refractive error",
+        "notes": "Initial appointment, evaluation",
+        "location": "Office",
+        "doctor_id": "2",
+        "patient_id": "0"
+    },
+    {
+        "visit_date": "2024-09-04",
+        "visit_time": "1:00 PM",
+        "reason": "Dry eye, refractive error",
+        "notes": "Initial appointment, evaluation",
+        "location": "Office",
+        "doctor_id": "2",
+        "patient_id": "2"
+    },
+    {
+        "visit_date": "2024-09-04",
+        "visit_time": "1:00 PM",
+        "reason": "Arrhythmias, atrial fibrillation",
+        "notes": "Initial appointment, evaluation",
+        "location": "Office",
+        "doctor_id": "3",
+        "patient_id": "3"
+    }
+]   
