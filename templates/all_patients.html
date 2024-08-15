@@ -2,6 +2,12 @@
 {% block title %}All Patients{% endblock %}
 
 {% block body %}
+<br>
+<a href="/">
+  <button>Go to Homepage</button>
+<br>
+
+</a>
 <h1> All Patients </h1>
 {% for patient in patients %}
 
@@ -12,5 +18,6 @@
     </a>
   </li>
 {% endfor %}
+
 
 {% endblock %}
