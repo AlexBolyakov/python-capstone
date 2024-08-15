@@ -1,4 +1,4 @@
-<!-- {% extends 'base.html' %}
+{% extends 'base.html' %}
 {% block title %}All Appointments{% endblock %}
 
 {% block body %}
@@ -7,10 +7,12 @@
 
 
 <li>
+    <p>Doctor Name: {{ appointment.doctor_name }}</p>
     <a href="/appointments/{{ appointment.appointment_id }}">
-      {{ appointment.patient_id }}
+      <p> Appointment Information for Patient: {{ appointment.patient_name }}</p>
+      
     </a>
   </li>
 {% endfor %}
 
-{% endblock %} -->
+{% endblock %}

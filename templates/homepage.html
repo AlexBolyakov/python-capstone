@@ -10,4 +10,56 @@
         <li><a href="/doctors">View all doctors</a></li>
         <li><a href="/appointments">View all appointments</a></li>
     </ul>
+
+    <h2>Create Patient Account</h2>
+  <form action="/patients" method="POST">
+    <p>
+      Email <input type="text" name="patient_email">
+    </p>
+
+    <p>
+      Password <input type="password" name="password">
+    </p>
+
+    <p>
+      Patient Name <input type="text" name="patient_name">
+    </p>
+    
+    <p> 
+      Gender <input type="text" name="gender">
+    </p>
+    
+    <p>
+        Insurance <input type="text" name="insurance">
+    </p>
+    
+    <p>
+        Allergies <input type="text" name="allergies">
+    </p>
+    
+    <p>
+        Medication List <input type="text" name="medications">
+    </p>
+
+    <p>
+      <input type="submit">
+    </p>
+  </form>
+
+  
+  <h2>Patient Log In</h2>
+  
+  <form action="/login" method="POST">
+    <p>
+      Email <input type="text" name="patient_email">
+    </p>
+
+    <p>
+      Password <input type="password" name="password">
+    </p>
+
+    <p>
+      <input type="submit">
+    </p>
+  </form>
 {% endblock %}

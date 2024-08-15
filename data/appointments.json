@@ -5,7 +5,7 @@
       "reason": "High blood pressure",
       "notes": "Initial appointment, blood collection",
       "location": "Telehealth",
-      "doctor_id": "3",
+      "doctor_id": "4",
       "patient_id": "1"
     },
     {
@@ -14,7 +14,7 @@
       "reason": "Pain",
       "notes": "Initial appointment, blood collection",
       "location": "Telehealth",
-      "doctor_id": "17",
+      "doctor_id": "14",
       "patient_id": "2"
     },
     {
@@ -23,7 +23,7 @@
         "reason": "Gastric pain",
         "notes": "Initial appointment, blood collection, cultures",
         "location": "Office",
-        "doctor_id": "6",
+        "doctor_id": "7",
         "patient_id": "3"
     },
     {
@@ -32,8 +32,8 @@
         "reason": "Pain",
         "notes": "Follow up appointment, blood collection",
         "location": "Telehealth",
-        "doctor_id": "0",
-        "patient_id": "0"
+        "doctor_id": "1",
+        "patient_id": "1"
     },
     {
         "visit_date": "2024-10-01",
@@ -41,7 +41,7 @@
         "reason": "Skin irritation",
         "notes": "Initial appointment, allergy test",
         "location": "Office",
-        "doctor_id": "4",
+        "doctor_id": "5",
         "patient_id": "4"
     },
     {
@@ -50,7 +50,7 @@
         "reason": "Ear infection",
         "notes": "Initial appointment, Evaluation",
         "location": "Office",
-        "doctor_id": "10",
+        "doctor_id": "11",
         "patient_id": "5"
     },
     {
@@ -68,7 +68,7 @@
         "reason": "Fever, chills and sweats, nausea, headache",
         "notes": "Initial appointment, blood collection",
         "location": "Office",
-        "doctor_id": "7",
+        "doctor_id": "8",
         "patient_id": "7"
     },
     {
@@ -77,7 +77,7 @@
         "reason": "Swollen lymph nodes, nausea, headache",
         "notes": "Initial appointment, blood collection, evaluation",
         "location": "Office",
-        "doctor_id": "9",
+        "doctor_id": "10",
         "patient_id": "8"
     },
     {
@@ -86,7 +86,7 @@
         "reason": "Chect pain, stuffy nose, headache",
         "notes": "Initial appointment, blood collection, evaluation",
         "location": "Office",
-        "doctor_id": "12",
+        "doctor_id": "13",
         "patient_id": "9"
     },
     {
@@ -95,7 +95,7 @@
         "reason": "Migrane, concussion",
         "notes": "Initial appointment, blood collection, evaluation",
         "location": "Office",
-        "doctor_id": "13",
+        "doctor_id": "14",
         "patient_id": "10"
     },
     {
@@ -104,7 +104,7 @@
         "reason": "Low testosterone, fatique",
         "notes": "Initial appointment, blood collection, evaluation",
         "location": "Office",
-        "doctor_id": "16",
+        "doctor_id": "17",
         "patient_id": "11"
     },
     {
@@ -113,7 +113,7 @@
         "reason": "Fever, chills and sweats, nausea, headache",
         "notes": "Initial appointment, blood collection, blood culture",
         "location": "Office",
-        "doctor_id": "15",
+        "doctor_id": "16",
         "patient_id": "12"
     },
     {
@@ -122,7 +122,7 @@
         "reason": "muscle sprain, limited mobility, pain",
         "notes": "Initial appointment, evaluation",
         "location": "Office",
-        "doctor_id": "17",
+        "doctor_id": "18",
         "patient_id": "13"
     },
     {
@@ -131,7 +131,7 @@
         "reason": "Genetic counseling",
         "notes": "Initial appointment, genetic evaluation test",
         "location": "Office",
-        "doctor_id": "18",
+        "doctor_id": "19",
         "patient_id": "14"
     },
     {
@@ -140,7 +140,7 @@
         "reason": "Scar evaluation and reduction",
         "notes": "Initial appointment, blood collection, evaluation",
         "location": "Office",
-        "doctor_id": "19",
+        "doctor_id": "20",
         "patient_id": "15"
     },
     {
@@ -149,7 +149,7 @@
         "reason": "Ischemia, structural defects",
         "notes": "Initial appointment, evaluation",
         "location": "Office",
-        "doctor_id": "20",
+        "doctor_id": "21",
         "patient_id": "16"
     },
     {
@@ -158,8 +158,8 @@
         "reason": "Dry eye, refractive error",
         "notes": "Initial appointment, evaluation",
         "location": "Office",
-        "doctor_id": "2",
-        "patient_id": "0"
+        "doctor_id": "3",
+        "patient_id": "1"
     },
     {
         "visit_date": "2024-09-04",
@@ -167,7 +167,7 @@
         "reason": "Dry eye, refractive error",
         "notes": "Initial appointment, evaluation",
         "location": "Office",
-        "doctor_id": "2",
+        "doctor_id": "3",
         "patient_id": "2"
     },
     {
@@ -176,7 +176,7 @@
         "reason": "Arrhythmias, atrial fibrillation",
         "notes": "Initial appointment, evaluation",
         "location": "Office",
-        "doctor_id": "3",
+        "doctor_id": "4",
         "patient_id": "3"
     }
 ]   

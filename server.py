@@ -45,9 +45,47 @@ def show_doctor(doctor_id):
 @app.route("/appointments")
 def all_appointments():
 
-    appt = crud.get_appointments()
+    appointments = crud.get_appointments()
 
-    return render_template("all_appointments.html", appt=appt)
+    return render_template("all_appointments.html", appointments=appointments)
+
+@app.route("/patients", methods=["POST"])
+def register_patient():
+
+    email = request.form.get("patient_email")
+    password = request.form.get("password")
+    patient_name = request.form.get("patient_name")
+    gender = request.form.get("gender")
+    insurance = request.form.get("insurance")
+    allergies = request.form.get("allergies")
+    medications = request.form.get("medications")
+
+
+    patient = crud.get_patient_by_email(email)
+    if patient:
+        flash("Unable to create account with provided email. Try again!")
+    else:
+        patient = crud.create_patient(email, password, patient_name, gender, insurance, allergies, medications)
+        db.session.add(patient)
+        db.session.commit()
+        flash("Patient account was created successfully! Please log in.")
+    
+    return redirect("/")
+
+@app.route("/login", methods=["POST"])
+def patient_login():
+    
+    email = request.form.get("patient_email")
+    password = request.form.get("password")
+
+    patient = crud.get_patient_by_email(email)
+    if patient and patient.password == password:
+        session["patient_email"] = patient.patient_email
+        flash(f"Welcome back, {patient.patient_email}!")
+    else:
+        flash("The email or password is incorrect.")
+    return redirect("/")
+
 
 if __name__ == "__main__":
     connect_to_db(app)

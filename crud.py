@@ -41,9 +41,31 @@ def get_doctor_by_id(doctor_id):
 
 def get_appointments():
     appointments = Appointment.query.all()
-    print(appointments)
+    # print(appointments)
+    appointments = Appointment.query.all()
+    results = []
+
     for appointment in appointments:
-        print(appointment.doctor.doctor_name)
+        appointment_info = {
+            'appointment_id': appointment.appt_id,
+            'visit_date': appointment.visit_date,
+            'visit_time': appointment.visit_time,
+            'reason': appointment.reason,
+            'notes': appointment.notes,
+            'location': appointment.location,
+            'doctor_name': appointment.doctor.doctor_name,
+            'patient_name': appointment.patient.patient_name
+        }
+        results.append(appointment_info)
+
+    return results
+   
+   
+    # return f"Appointment with Doctor: {doctor_name}, MD, for Patient: {patient_name}"
+       
+def get_patient_by_email(patient_email):
+
+    return Patient.query.filter(Patient.patient_email == patient_email).first()
 
 
 if __name__ == '__main__':
