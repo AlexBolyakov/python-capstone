@@ -40,8 +40,7 @@ def get_doctor_by_id(doctor_id):
     return Doctor.query.get(doctor_id)
 
 def get_appointments():
-    appointments = Appointment.query.all()
-    # print(appointments)
+   
     appointments = Appointment.query.all()
     results = []
 
@@ -59,6 +58,9 @@ def get_appointments():
         results.append(appointment_info)
 
     return results
+
+def get_appointment_by_id(appointment_id):
+    return Appointment.query.get(appointment_id)
    
    
     # return f"Appointment with Doctor: {doctor_name}, MD, for Patient: {patient_name}"

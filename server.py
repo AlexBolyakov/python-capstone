@@ -49,6 +49,13 @@ def all_appointments():
 
     return render_template("all_appointments.html", appointments=appointments)
 
+@app.route("/appointments/<appointment_id>")
+def show_appointment(appointment_id):
+
+    appointment = crud.get_appointment_by_id(appointment_id)
+
+    return render_template("appointment_details.html", appointment=appointment)
+
 @app.route("/patients", methods=["POST"])
 def register_patient():
 
