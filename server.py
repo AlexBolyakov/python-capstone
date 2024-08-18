@@ -67,6 +67,9 @@ def register_patient():
     allergies = request.form.get("allergies")
     medications = request.form.get("medications")
 
+    if not all([email, password, patient_name, gender, insurance, allergies, medications]):
+        flash("Data entry is missing. Please fill out all fields.")
+        return redirect("/")
 
     patient = crud.get_patient_by_email(email)
     if patient:
@@ -84,6 +87,10 @@ def patient_login():
     
     email = request.form.get("patient_email")
     password = request.form.get("password")
+
+    if not all([email, password]):
+        flash("Data entry is missing. Please fill out all fields.")
+        return redirect("/")
 
     patient = crud.get_patient_by_email(email)
     if patient and patient.password == password:

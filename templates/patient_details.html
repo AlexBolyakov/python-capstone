@@ -3,6 +3,10 @@
 {% block title %}{{ patient.patient_name }} - Details{% endblock %}
 
 {% block body %}
+<div class="container">
+    <a href="/">
+      <button class="btn-to-go">Go to Homepage</button>
+    </a>
 
 <h1>Patient Demographics</h1>
 
@@ -12,4 +16,6 @@
 <h2>Insurance: {{ patient.insurance }}</h2>
 <h2>Allergies: {{ patient.allergies }}</h2>
 <h2>Medical History: {{ patient.medications }}</h2>
+
+</div>
 {% endblock %}

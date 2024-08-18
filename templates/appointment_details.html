@@ -3,7 +3,10 @@
 {% block title %}{{ appointment.appt_id }} - Details{% endblock %}
 
 {% block body %}
-
+<div class="container">
+    <a href="/">
+      <button class="btn-to-go">Go to Homepage</button>
+    </a>
 <h1>Appointment Details</h1>
 
 <h2>Visit Date: {{ appointment.visit_date }}</h2>
@@ -11,5 +14,5 @@
 <h2>Reason: {{ appointment.reason }}</h2>
 <h2>Notes: {{ appointment.notes }}</h2>
 <h2>Location: {{ appointment.location }}</h2>
-
+</div>
 {% endblock %}

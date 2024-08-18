@@ -2,13 +2,16 @@
 {% block title %}All Patients{% endblock %}
 
 {% block body %}
+<div class="container">
 <br>
+<div class="gohome">
 <a href="/">
-  <button>Go to Homepage</button>
-<br>
-
+  <button class="btn-to-go">Go to Homepage</button>
 </a>
-<h1> All Patients </h1>
+</div>
+<br>
+<p class="all-patients"> All Patients </p>
+<ul>
 {% for patient in patients %}
 
 
@@ -19,5 +22,7 @@
   </li>
 {% endfor %}
 
+</ul>
+</div>
 
 {% endblock %}

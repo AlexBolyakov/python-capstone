@@ -2,15 +2,24 @@
 {% block title %}CareFlow Homepage{% endblock %}
 
 {% block body %}
-    <h1>CareFlow Homepage</h1>
+<header>
+  <div>
+    <h1>CareFlow Management</h1>
+  </div>  
+  <nav> 
+      <button class="btn" onclick="window.location.href='/patients'">All Patients</button>
+      <button class="btn" onclick="window.location.href='/doctors'">All Doctors</button>
+      <button class="btn" onclick="window.location.href='/appointments'">All Appointments</button>
+  </nav>
 
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="/patients">View all patients</a></li>
-        <li><a href="/doctors">View all doctors</a></li>
-        <li><a href="/appointments">View all appointments</a></li>
-    </ul>
+      
+</header>        
+<article>
+  CareFlow Management is an application designed to streamline patient care and administrative processes within healthcare settings. The app offers features for managing patient profiles, scheduling appointments, and keeping track of doctor availability. It allows users to create and log into patient accounts, view a comprehensive list of patients, doctors, and appointments, and manage essential healthcare information efficiently.
+</article>
 
+<main>
+  <div class="create-form">
     <h2>Create Patient Account</h2>
   <form action="/patients" method="POST">
     <p>
@@ -45,8 +54,9 @@
       <input type="submit">
     </p>
   </form>
-
+  </div>
   
+  <div class="login">
   <h2>Patient Log In</h2>
   
   <form action="/login" method="POST">
@@ -62,4 +72,6 @@
       <input type="submit">
     </p>
   </form>
+  </div>
+</main> 
 {% endblock %}
